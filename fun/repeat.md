@@ -8,4 +8,4 @@ repeat
 
 ## Response:
 No case-sensitivity: ```{{.StrippedMsg}}```
-Case-sensitivity: ```{{range $k, $v := .Args}}{{if ne $k 0}}{{.}} {{end}}{{end}} {{ deleteTrigger }}```
+Case-sensitivity: ```{{range $k, $v := .Args}}{{if ne $k 0}}{{.}} {{end}}{{end}}```
